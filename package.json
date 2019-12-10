@@ -8,9 +8,10 @@
   },
   "author": "Itay Gershman",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
-    "eslint": "^6.7.2",
+  "dependencies": {
     "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2"
   }
 }

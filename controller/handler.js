@@ -230,7 +230,7 @@ const del = (req,res)=>{
         logger.eventEmitter.emit('log','Delete all orders called');
         let body = "";
         req.on("data",(chunk) =>{
-            body += chunk;
+            body += chunk.toString();
         });
         req.on('end',()=>{
             if (body !== ""){
